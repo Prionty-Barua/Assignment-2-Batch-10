@@ -165,3 +165,50 @@ body {
     line-height: 30px;
 }
 
+/* main */
+/* section one */
+.selection-one-banner {
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+}
+
+.believe {
+    color: rgba(255, 255, 255, 0.5);
+    width: 580px;
+    height: 40px;
+    margin: 20px 0px 0px 370px;
+}
+
+.section-one-img {
+    display: flex;
+    margin: 20px 0px 0px 150px;
+    gap: 80px;
+}
+
+.section-gym-position {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.gym-exercise {
+    border-radius: 60%;
+    margin-left: 6px;
+}
+
+.section-gym-description {
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-pera {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+}
