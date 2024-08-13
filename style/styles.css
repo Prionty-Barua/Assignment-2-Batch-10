@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Playwrite+BE+WAL:wght@100..400&display=swap');
 
+/* * {
+    border: 1px solid red;
+}
+
+body {
+    border: 4px dashed green;
+} */
+
 * {
     margin: 0px;
 }
@@ -212,6 +220,7 @@ body {
     height: 20px;
     width: 200px;
 }
+
 /* section two */
 .section-two {
     background-color: rgb(34, 34, 34);
@@ -266,6 +275,7 @@ body {
     padding: 20px;
     font-size: 18px;
 }
+
 /* Bonus section */
 
 /* BMI Calculator Chart */
@@ -364,8 +374,10 @@ select {
     padding: 20px;
     font-size: 18px;
 }
+
 /* section three */
 .section-three-intro {
+    height: 100%;
     margin-top: 70px;
     text-align: center;
 }
@@ -378,43 +390,36 @@ select {
     height: 40px;
     width: 580px;
     margin-top: 20px;
-    margin-left: 350px;
+    margin-left: 370px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.img-content {
-    margin: 30px;
-    border-radius: 20px;
-}
-
-.images {
-    width: 68%;
-    height: 580px;
-    background-color: rgb(34, 34, 34);
+.section-three {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 30px 0px 80px 190px;
+    width: 68%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+    margin: 30px 0px 70px 200px;
     padding: 20px;
     border-radius: 20px;
     gap: 12px;
 }
 
+.img-content {
+    position: relative;
+    border-radius: 30px;
+}
+
 img {
-    border-radius: 15px;
-    border-radius: 20px;
-    gap: 10px;
+    
+    border-radius: 30px;
 }
 
 .trainer-title {
-    position: relative;
+    position: absolute;
     font-size: 18px;
-}
-
-.trainer-title-two {
-    margin-top: 20px;
-    padding: 8px;
-    color: #fffdfd;
-    margin: 220px 0px 0px 10px;
+    margin: 200px 0px 0px 0px;
 }
 
 .trainer {
@@ -422,6 +427,7 @@ img {
     left: 250px;
     color: rgb(141, 141, 141);
 }
+
 /* own design section */
 .customize {
     margin-bottom: 150px;
@@ -523,6 +529,7 @@ i {
     display: flex;
     gap: 10px;
 }
+
 /* footer */
 .footer {
     background-color: rgb(34, 34, 34);
@@ -554,19 +561,16 @@ i {
 }
 
 .footer-option {
-    line-height: 35px;
-    margin-top: 20px;
+    line-height: 32px;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.50);
 }
 
 .footer-end {
     color: rgba(255, 255, 255, 0.50);
-    margin: 30px 0px 10px 10px;
+    margin: 10px 0px 0px 0px;
     line-height: 60px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 hr {
@@ -574,6 +578,7 @@ hr {
     ;
     margin: 0px 150px 0px 150px;
 }
+
 /* Responsive Design */
 @media screen and (max-width: 576px) {
 
@@ -803,6 +808,52 @@ hr {
 
     /* section three */
     .section-three-intro {
+        position: relative;
+        margin-top: 70px;
+    }
+
+    .Meet {
+        font-size: 40px;
+    }
+
+    .believe-four {
+        height: 40px;
+        width: 580px;
+        margin-top: 20px;
+        margin-left: 350px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .section-three {
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        width: 68%;
+        height: 100%;
+        background-color: rgb(34, 34, 34);
+        margin: 30px 0px 80px 190px;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 12px;
+    }
+
+    .img {
+        border-radius: 15px;
+        border-radius: 20px;
+        gap: 10px;
+    }
+
+    .trainer-title {
+        position: absolute;
+        font-size: 18px;
+    }
+
+    .trainer {
+        font-size: 16px;
+        left: 250px;
+        color: rgb(141, 141, 141);
+    }
+
+    /* .section-three-intro {
         margin: 20px 0px 20px 20px;
     }
 
@@ -826,12 +877,6 @@ hr {
         gap: 12px;
     }
 
-    .img-factory {
-        position: relative;
-        height: 400px;
-        width: 465px;
-    }
-
     .trainer-title {
         position: absolute;
         font-size: 18px;
@@ -849,7 +894,7 @@ hr {
         font-size: 16px;
         left: 50px;
         color: rgb(141, 141, 141);
-    }
+    } */
 
     /* own design section */
 
