@@ -422,3 +422,104 @@ img {
     left: 250px;
     color: rgb(141, 141, 141);
 }
+/* own design section */
+.customize {
+    margin-bottom: 150px;
+}
+
+.pricing {
+    margin: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.plan {
+    margin-top: 20px;
+    color: rgba(213, 210, 210, 0.5);
+    font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    margin: 20px 60px 0px 60px;
+}
+
+.price-card {
+    padding: 20px;
+    width: 300px;
+    padding: 30px;
+    gap: 20px;
+}
+
+/* price card one */
+.price-card-one {
+    background-color: rgba(195, 193, 193, 0.227);
+    border-radius: 10px;
+    margin: 0px 0px 0px 60px;
+    padding: 20px;
+    height: 350px;
+    width: 280px;
+    gap: 5px;
+}
+
+.price-card-one:hover {
+    border: 1px solid rgba(230, 83, 60, 1.00);
+}
+
+.price {
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.package-btn {
+    position: absolute;
+    top: 180px;
+    left: 30%;
+}
+
+.horizontal {
+    border: 1px solid rgb(113, 113, 113);
+    left: 20px;
+    width: 270px;
+    margin: 10px 0px 20px 0px;
+}
+
+#package-type {
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid rgba(230, 83, 60, 1.00);
+    color: rgba(230, 83, 60, 1.00);
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.btn-price {
+    margin: 160px 0px 10px 15px;
+}
+
+.btn-price-two {
+    margin: 140px 0px 10px 16px;
+}
+
+.btn-price-three {
+    margin: 100px 10px 0px 18px;
+}
+
+#package-type:hover {
+    background-color: rgba(230, 83, 60, 1.00);
+    color: #ffffff;
+}
+
+i {
+    color: rgba(230, 83, 60, 1.00);
+}
+
+.icon-title {
+    display: flex;
+    gap: 10px;
+}
