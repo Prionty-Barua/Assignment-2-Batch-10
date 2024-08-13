@@ -433,7 +433,7 @@ img {
 
 /* own design section */
 .customize {
-    margin-bottom: 150px;
+    margin: 150px 0px 150px 0px;
 }
 
 .pricing {
@@ -563,7 +563,8 @@ i {
 }
 
 .footer-option {
-    line-height: 32px;
+    margin-top: 20px;
+    line-height: 34px;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.50);
 }
