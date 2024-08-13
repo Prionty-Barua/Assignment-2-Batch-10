@@ -364,3 +364,61 @@ select {
     padding: 20px;
     font-size: 18px;
 }
+/* section three */
+.section-three-intro {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.Meet {
+    font-size: 40px;
+}
+
+.believe-four {
+    height: 40px;
+    width: 580px;
+    margin-top: 20px;
+    margin-left: 350px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.img-content {
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.images {
+    width: 68%;
+    height: 580px;
+    background-color: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 0px 80px 190px;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 12px;
+}
+
+img {
+    border-radius: 15px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.trainer-title {
+    position: relative;
+    font-size: 18px;
+}
+
+.trainer-title-two {
+    margin-top: 20px;
+    padding: 8px;
+    color: #fffdfd;
+    margin: 220px 0px 0px 10px;
+}
+
+.trainer {
+    font-size: 16px;
+    left: 250px;
+    color: rgb(141, 141, 141);
+}
