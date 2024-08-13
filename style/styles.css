@@ -574,3 +574,335 @@ hr {
     ;
     margin: 0px 150px 0px 150px;
 }
+/* Responsive Design */
+@media screen and (max-width: 576px) {
+
+    /* nav section */
+    .nav-items {
+        gap: 70%;
+        margin-left: 55px;
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    /* banner section */
+    .banner-items {
+        display: block;
+        gap: 10px;
+    }
+
+    .get {
+        font-size: 70px;
+        margin-left: 35px;
+        padding: 10px;
+    }
+
+    .selection {
+        width: 260px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .join {
+        height: 60px;
+        width: 170px;
+        padding: 10px;
+        margin-left: 45px;
+    }
+
+    .banner-img {
+        padding: 0px 0px 0px 130px;
+    }
+
+    .card-one {
+        height: 60px;
+        width: 126px;
+        padding: 12px;
+        top: 580px;
+        margin: 0px 0px 0px 320px;
+    }
+
+    .card-two {
+        position: absolute;
+        height: 60px;
+        width: 150px;
+        top: 780px;
+        margin-right: 210px;
+
+    }
+
+    /* main */
+    /* section one */
+
+    .selection-one-banner {
+        margin: 0px 0px 20px 20px;
+    }
+
+    .believe {
+        font-size: 14px;
+        width: 240px;
+        margin: 20px auto;
+    }
+
+    .section-one-img {
+        display: block;
+        margin: 30px 0px 0px 30px;
+        gap: 80px;
+    }
+
+    .gym-exercise {
+        margin-left: 180px;
+    }
+
+    .section-gym-position {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .section-gym-description {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 230px;
+    }
+
+    .title-pera {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        margin-left: 160px;
+    }
+
+    /* section two */
+    .section-two {
+        display: block;
+        width: 88%;
+        height: 580px;
+        margin: 10px 20px 10px 40px;
+        gap: 20%;
+    }
+
+    .section-two-description {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .section-two-title {
+        font-size: 0px;
+        margin-top: 20px;
+    }
+
+    .run-title {
+        font-size: 50px;
+        padding-top: 30px;
+
+    }
+
+    .believe-two {
+        font-size: 20px;
+        height: 90px;
+        width: 330px;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 15px;
+        line-height: 24px;
+    }
+
+    .run {
+        margin-top: 20px;
+        margin-left: 30px;
+        height: 210px;
+        width: 460px;
+        border-radius: 20px;
+    }
+
+    .btn-one {
+        background-color: rgb(230, 83, 60);
+        height: 60px;
+        width: 460px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+        margin-top: 6px;
+        margin-left: 10px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    /* Bonus section */
+
+    /* BMI Calculator Chart */
+
+    .bmi-Calculator {
+        width: 90%;
+        margin: 0px 0px 0px 60px;
+        /* margin: 20px auto; */
+    }
+
+    .believe-three {
+        height: 40px;
+        width: 270px;
+        margin: 0px 0px 40px 10px;
+    }
+
+    .calculator {
+        background-color: rgb(34, 34, 34);
+        display: block;
+        padding: 0px 10px 10px 0px;
+        gap: 10%;
+    }
+
+    .bmi-calculator-chart {
+        padding-top: 20px;
+        margin: 30px 20px 0px 50px;
+    }
+
+    .chart {
+        margin: 20px 170px 0px 0px;
+        font-size: 30px;
+    }
+
+    /* Calculate your BMI */
+
+    .calculate-bmi {
+        line-height: 24px;
+        margin: 50px;
+        text-align: left;
+    }
+
+    input,
+    select {
+        width: 200px;
+    }
+
+    .select-two {
+        width: 420px;
+    }
+
+    .btn-two {
+        background-color: rgb(230, 83, 60);
+        height: 60px;
+        width: 200px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+        margin-top: 6px;
+        margin-left: 10px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    /* section three */
+    .section-three-intro {
+        margin: 20px 0px 20px 20px;
+    }
+
+    .Meet {
+        font-size: 40px;
+    }
+
+    .believe-four {
+        font-size: 16px;
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .images {
+        width: 90%;
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 30px 0px 80px 10px;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 12px;
+    }
+
+    .img-factory {
+        position: relative;
+        height: 400px;
+        width: 465px;
+    }
+
+    .trainer-title {
+        position: absolute;
+        font-size: 18px;
+    }
+
+    .trainer-title-two {
+        margin-top: 10px;
+        padding: 8px;
+        color: #fffdfd;
+        font-size: 18px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .trainer {
+        font-size: 16px;
+        left: 50px;
+        color: rgb(141, 141, 141);
+    }
+
+    /* own design section */
+
+    .menu {
+        display: block;
+        margin: 20px 0px 0px 40px;
+    }
+
+
+    /* footer */
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-section {
+        display: block;
+        margin: 20px;
+        padding: 30px;
+        gap: 130px;
+    }
+
+    .content-topic-02 {
+        color: rgba(230, 83, 60, 1.00);
+        font-size: 60px;
+    }
+
+    .footer-pera {
+        margin: 20px 0px 50px 0px;
+        width: 520px;
+    }
+
+    .footer-pera {
+        color: rgba(255, 255, 255, 0.50);
+    }
+
+    .footer-option {
+        line-height: 35px;
+        margin: 20px 0px 20px 0px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.50);
+    }
+
+    .footer-end {
+        color: rgba(255, 255, 255, 0.50);
+        margin: 30px 0px 15px 50px;
+        line-height: 60px;
+        text-align: left;
+    }
+
+    hr {
+        border: 2px solid rgba(71, 71, 71, 0.5);
+        ;
+        margin: 0px 15px 0px 05px;
+    }
+}
