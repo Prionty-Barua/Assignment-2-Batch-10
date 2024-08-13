@@ -387,11 +387,11 @@ select {
 }
 
 .believe-four {
-    height: 40px;
-    width: 580px;
-    margin-top: 20px;
-    margin-left: 370px;
     color: rgba(255, 255, 255, 0.5);
+    width: 580px;
+    height: 40px;
+    margin: 20px 0px 0px 370px;
+
 }
 
 .section-three {
@@ -412,7 +412,7 @@ select {
 }
 
 img {
-    
+
     border-radius: 30px;
 }
 
@@ -455,7 +455,6 @@ h2 {
 }
 
 .price-card {
-    padding: 20px;
     width: 300px;
     padding: 30px;
     gap: 20px;
@@ -584,7 +583,7 @@ hr {
 
     /* nav section */
     .nav-items {
-        gap: 70%;
+        gap: 65%;
         margin-left: 55px;
     }
 
@@ -604,7 +603,7 @@ hr {
 
     .get {
         font-size: 70px;
-        margin-left: 35px;
+        margin-left: 50px;
         padding: 10px;
     }
 
@@ -652,12 +651,12 @@ hr {
     .believe {
         font-size: 14px;
         width: 240px;
-        margin: 20px auto;
+        margin: 10px auto;
     }
 
     .section-one-img {
         display: block;
-        margin: 30px 0px 0px 30px;
+        margin: 30px 0px 0px 0px;
         gap: 80px;
     }
 
@@ -666,7 +665,7 @@ hr {
     }
 
     .section-gym-position {
-        width: 200px;
+        width: 100%;
         margin-top: 10px;
     }
 
@@ -679,32 +678,25 @@ hr {
         font-size: 16px;
         text-align: center;
         margin-bottom: 10px;
-        margin-left: 230px;
     }
 
     .title-pera {
         color: rgba(255, 255, 255, 0.5);
         font-size: 14px;
-        margin-left: 160px;
+        margin-left: 180px;
     }
 
     /* section two */
     .section-two {
         display: block;
         width: 88%;
-        height: 580px;
-        margin: 10px 20px 10px 40px;
-        gap: 20%;
+        height: 100%;
+        margin: 10px 30px 10px 40px;
     }
 
     .section-two-description {
         text-align: left;
         margin-left: 20px;
-    }
-
-    .section-two-title {
-        font-size: 0px;
-        margin-top: 20px;
     }
 
     .run-title {
@@ -723,9 +715,9 @@ hr {
     }
 
     .run {
-        margin-top: 20px;
-        margin-left: 30px;
-        height: 210px;
+        margin-top: 10px;
+        margin-left: 18px;
+        height: 200px;
         width: 460px;
         border-radius: 20px;
     }
@@ -733,7 +725,7 @@ hr {
     .btn-one {
         background-color: rgb(230, 83, 60);
         height: 60px;
-        width: 460px;
+        width: 450px;
         border-radius: 25px;
         color: white;
         border: none;
@@ -750,7 +742,6 @@ hr {
     .bmi-Calculator {
         width: 90%;
         margin: 0px 0px 0px 60px;
-        /* margin: 20px auto; */
     }
 
     .believe-three {
@@ -808,7 +799,7 @@ hr {
 
     /* section three */
     .section-three-intro {
-        position: relative;
+        height: 100%;
         margin-top: 70px;
     }
 
@@ -817,11 +808,9 @@ hr {
     }
 
     .believe-four {
-        height: 40px;
-        width: 580px;
-        margin-top: 20px;
-        margin-left: 350px;
-        color: rgba(255, 255, 255, 0.5);
+        height: 50px;
+        width: 300px;
+        margin-left: 130px;
     }
 
     .section-three {
@@ -830,21 +819,22 @@ hr {
         width: 68%;
         height: 100%;
         background-color: rgb(34, 34, 34);
-        margin: 30px 0px 80px 190px;
-        padding: 20px;
-        border-radius: 20px;
-        gap: 12px;
+        margin: 20px 0px 70px 80px;
     }
 
-    .img {
-        border-radius: 15px;
-        border-radius: 20px;
-        gap: 10px;
+    .img-content {
+        position: relative;
+        margin-left: 40px;
+    }
+
+    img {
+        border-radius: 30px;
     }
 
     .trainer-title {
         position: absolute;
         font-size: 18px;
+        margin: 200px 0px 0px 0px;
     }
 
     .trainer {
@@ -853,54 +843,19 @@ hr {
         color: rgb(141, 141, 141);
     }
 
-    /* .section-three-intro {
-        margin: 20px 0px 20px 20px;
-    }
-
-    .Meet {
-        font-size: 40px;
-    }
-
-    .believe-four {
-        font-size: 16px;
-        width: 300px;
-        margin: 20px auto;
-    }
-
-    .images {
-        width: 90%;
-        height: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 30px 0px 80px 10px;
-        padding: 20px;
-        border-radius: 20px;
-        gap: 12px;
-    }
-
-    .trainer-title {
-        position: absolute;
-        font-size: 18px;
-    }
-
-    .trainer-title-two {
-        margin-top: 10px;
-        padding: 8px;
-        color: #fffdfd;
-        font-size: 18px;
-        margin: 0px 0px 0px 10px;
-    }
-
-    .trainer {
-        font-size: 16px;
-        left: 50px;
-        color: rgb(141, 141, 141);
-    } */
 
     /* own design section */
 
     .menu {
         display: block;
-        margin: 20px 0px 0px 40px;
+    }
+
+    .price-card {
+        width: 100%;
+    }
+
+    .price-card-one {
+        margin: 0px 0px 0px 30px;
     }
 
 
@@ -912,35 +867,15 @@ hr {
 
     .footer-section {
         display: block;
-        margin: 20px;
-        padding: 30px;
-        gap: 130px;
-    }
-
-    .content-topic-02 {
-        color: rgba(230, 83, 60, 1.00);
-        font-size: 60px;
     }
 
     .footer-pera {
         margin: 20px 0px 50px 0px;
-        width: 520px;
-    }
-
-    .footer-pera {
-        color: rgba(255, 255, 255, 0.50);
-    }
-
-    .footer-option {
-        line-height: 35px;
-        margin: 20px 0px 20px 0px;
-        font-size: 18px;
-        color: rgba(255, 255, 255, 0.50);
     }
 
     .footer-end {
         color: rgba(255, 255, 255, 0.50);
-        margin: 30px 0px 15px 50px;
+        margin: 20px 0px 15px 60px;
         line-height: 60px;
         text-align: left;
     }
@@ -948,6 +883,6 @@ hr {
     hr {
         border: 2px solid rgba(71, 71, 71, 0.5);
         ;
-        margin: 0px 15px 0px 05px;
+        margin: 0px 40px 0px 05px;
     }
 }
