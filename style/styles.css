@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Playwrite+BE+WAL:wght@100..400&display=swap');
 
-/* * {
+* {
     border: 1px solid red;
 }
 
 body {
     border: 4px dashed green;
-} */
+}
 
 * {
     margin: 0px;
@@ -695,7 +695,7 @@ hr {
         display: block;
         width: 88%;
         height: 100%;
-        margin: 10px 30px 10px 40px;
+        margin: 30px 30px 10px 40px;
     }
 
     .section-two-description {
@@ -705,7 +705,7 @@ hr {
 
     .run-title {
         font-size: 50px;
-        padding-top: 30px;
+        padding-top: 20px;
 
     }
 
@@ -719,8 +719,7 @@ hr {
     }
 
     .run {
-        margin-top: 10px;
-        margin-left: 18px;
+        margin: 20px 0px 20px 20px;
         height: 200px;
         width: 460px;
         border-radius: 20px;
@@ -804,50 +803,46 @@ hr {
     /* section three */
     .section-three-intro {
         height: 100%;
-        margin-top: 70px;
     }
-
-    .Meet {
-        font-size: 40px;
-    }
-
     .believe-four {
-        height: 50px;
-        width: 300px;
-        margin-left: 130px;
+        font-size: 14px;
+        width: 240px;
+        margin: 10px auto;
     }
-
+    
     .section-three {
         display: block;
         grid-template-columns: repeat(1, 1fr);
-        width: 68%;
-        height: 100%;
+        width: 70%;
+        height: 600px;
         background-color: rgb(34, 34, 34);
-        margin: 20px 0px 70px 80px;
+        margin: 20px 50px 0px 70px;
     }
-
+    
     .img-content {
-        position: relative;
-        margin-left: 40px;
+        margin: 10px 60px 20px 50px;
     }
-
+    
     img {
-        border-radius: 30px;
+        border-radius: 20px;
     }
-
-    .trainer-title {
+    
+    .img {
         position: absolute;
-        font-size: 18px;
-        margin: 200px 0px 0px 0px;
     }
-
+    
+    .trainer-title {
+        color: #ffffff;
+        position: relative;
+        font-size: 20px;
+        margin: 210px 0px 0px 20px;
+    }
+    
     .trainer {
+        color: rgb(141, 141, 141);
         font-size: 16px;
         left: 250px;
-        color: rgb(141, 141, 141);
     }
-
-
     /* own design section */
 
     .menu {
